@@ -27,7 +27,7 @@ Simulaciones de ataques completos (kill chain, NIST, Pirámide del dolor) con an
 
 ---
 
-## 📊 Estructura de Cada Caso
+## Estructura de Cada Caso
 
 Todos los casos siguen este template:
 ```
@@ -59,7 +59,7 @@ Al completar estos casos, desarrollarás:
 
 ---
 
-## 🔗 Navegación
+## Navegación
 
 - [Ver Técnicas Individuales](../techniques/index.md)
 - [Ver Plantillas de Documentación](../templates/index.md)
