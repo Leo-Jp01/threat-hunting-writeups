@@ -13,7 +13,7 @@ Aquí encontrarás:
 - Simulación de investigación  
 - Análisis de Sysmon, logs y eventos  
 - Validación con herramientas como Chainsaw
-- Mini-SOC simulado con Wazuh, theHive, Shuffle, Suricata.
+- Mini-SOC simulado con Wazuh, theHive, Shuffle Automation, Suricata.
 - Metodologías y procesos de hunting  
 - Notas y plantillas personales  
 
