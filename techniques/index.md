@@ -23,34 +23,34 @@ Cada técnica documentada sigue este flujo:
 
 ## Técnicas Analizadas
 
-## 01. Reconocimiento (Reconnaissance)
+#### 01. Reconocimiento (Reconnaissance)
 
-## 02. Desarrollo de Recursos (Resource Development)
+#### 02. Desarrollo de Recursos (Resource Development)
 
-## 03. Acceso Inicial (Initial Access)
+#### 03. Acceso Inicial (Initial Access)
 
-## 04. Ejecución (Execution)
+#### 04. Ejecución (Execution)
 - [T1059.001 - PowerShell](execution/t1059-001-powershell.md) [pendiente]
 
-## 05. Persistencia (Persistence)
+#### 05. Persistencia (Persistence)
 
-## 06. Escalación de Privilegios (Privilege Escalation)
+#### 06. Escalación de Privilegios (Privilege Escalation)
 
-## 07. Evasión de Defensas (Defense Evasion)
+#### 07. Evasión de Defensas (Defense Evasion)
 
-## 08. Acceso a Credenciales (Credential Access)
+#### 08. Acceso a Credenciales (Credential Access)
 
-## 09. Descubrimiento (Discovery)
+#### 09. Descubrimiento (Discovery)
 
-## 10. Movimiento Lateral (Lateral Movement)
+#### 10. Movimiento Lateral (Lateral Movement)
 
-## 11. Recolección (Collection)
+#### 11. Recolección (Collection)
 
-## 12. Comando y Control (Command and Control)
+#### 12. Comando y Control (Command and Control)
 
-## 13. Exfiltración (Exfiltration)
+#### 13. Exfiltración (Exfiltration)
 
-## 14. Impacto (Impact)
+#### 14. Impacto (Impact)
 
 
 
