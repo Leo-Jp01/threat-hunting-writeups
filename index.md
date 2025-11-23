@@ -9,9 +9,11 @@ Bienvenido a mi repositorio público donde documento mis análisis, ejercicios y
 Aquí encontrarás:
 
 - Técnicas MITRE ATT&CK analizadas paso a paso  
-- Pruebas con Atomic Red Team  
-- Casos reales y simulados de investigación  
+- Pruebas con Atomic Red Team, Caldera MITRE, Pruebas propias  
+- Simulación de investigación  
 - Análisis de Sysmon, logs y eventos  
+- Validación con herramientas como Chainsaw
+- Mini-SOC simulado con Wazuh, theHive, Shuffle, Suricata.
 - Metodologías y procesos de hunting  
 - Notas y plantillas personales  
 
