@@ -4,7 +4,7 @@ title: Threat Hunting Writeups
 
 # Threat Hunting Writeups
 
-Bienvenido a mi repositorio público donde documento mis análisis, ejercicios y técnicas de Threat Hunting.
+Hola, Bienvenido. Soy Leo. Si te encuentras aquí, muchas gracias por tomarte el tiempo de visitar mi blog personal. Aquí subiré writeups técnicos sobre ciberseguridad defensiva, llevados no solo desde la teoría sino también desde la practica. espero te sean de ayuda y te puedan orientar si algún dia lo necesites.
 
 Aquí encontrarás:
 
