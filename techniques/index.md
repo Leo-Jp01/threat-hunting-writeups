@@ -30,7 +30,7 @@ Cada técnica documentada sigue este flujo:
 #### 03. Acceso Inicial (Initial Access)
 
 #### 04. Ejecución (Execution)
-- [T1059.001 - PowerShell](execution/t1059-001-powershell.md) [pendiente]
+- [T1059.001 - PowerShell](execution/t1059-001-powershell.md) [En Proceso]
 
 #### 05. Persistencia (Persistence)
 
@@ -71,9 +71,9 @@ Cada técnica documentada sigue este flujo:
 
 ## Estadísticas del Laboratorio
 
-- **Técnicas analizadas:** 0/12
-- **Reglas Wazuh creadas:** 0
-- **Reglas Sigma convertidas:** 0
+- **Técnicas analizadas:** 1/12
+- **Reglas Wazuh creadas:** 1
+- **Reglas Sigma convertidas:** 1
 - **Casos de uso documentados:** 0
 
 ---
@@ -85,5 +85,9 @@ Cada técnica documentada sigue este flujo:
 - [Wazuh Detection Rules](https://documentation.wazuh.com/current/user-manual/ruleset/index.html)
 
 ---
-
+[← Ver Técnicas Individuales](../techniques/index.md)\
 [← Volver al inicio](../index.md)
+
+---
+**Última actualización:** 2025-11-22  
+**Total de técnicas completados:** 0 / 8 planeados

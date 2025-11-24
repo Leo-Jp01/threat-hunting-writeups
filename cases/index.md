@@ -2,7 +2,6 @@
 
 Simulaciones de ataques completos (kill chain, NIST, Pirámide del dolor) con análisis paso a paso, desde detección inicial hasta respuesta.
 
----
 
 ## Diferencia entre Técnicas y Casos
 
@@ -13,7 +12,6 @@ Simulaciones de ataques completos (kill chain, NIST, Pirámide del dolor) con an
 | Metodología estructurada y repetible | Escenario de ataque realista |
 | Output: Regla de detección | Output: Reporte de incidente |
 
----
 
 ## Casos Documentados
 
@@ -25,7 +23,6 @@ Simulaciones de ataques completos (kill chain, NIST, Pirámide del dolor) con an
 ### Casos Planeados
 
 
----
 
 ## Estructura de Cada Caso
 
@@ -44,8 +41,6 @@ Todos los casos siguen este template:
 11. Referencias
 ```
 
----
-
 ## Habilidades Desarrolladas
 
 Al completar estos casos, desarrollarás:
@@ -57,13 +52,11 @@ Al completar estos casos, desarrollarás:
 **Documentación técnica profesional**  
 **Respuesta a incidentes (IR)**
 
+
 ---
-
-## Navegación
-
-- [Ver Técnicas Individuales](../techniques/index.md)
-- [Ver Plantillas de Documentación](../templates/index.md)
-- [Volver al Inicio](../index.md)
+ [← Ver Técnicas Individuales](../techniques/index.md)\
+ [← Ver Plantillas de Documentación](../templates/index.md)\
+ [← Volver al inicio](../index.md)
 
 ---
 
