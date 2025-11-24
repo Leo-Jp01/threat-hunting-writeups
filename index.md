@@ -17,6 +17,8 @@ Aquí encontrarás:
 - Metodologías y procesos de hunting  
 - Notas y plantillas personales  
 
+Si tienes alguna sugerencia, encontraste un problema o simplemente quieres contarme hazlo al siguiente email: `leo.jaraba.dev@gmail.com`
+
 ## Secciones
 
 - [Técnicas](techniques/)
