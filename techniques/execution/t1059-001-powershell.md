@@ -38,43 +38,15 @@ Los adversarios han usado PowerShell a lo largo de muchos años para realizar su
 | [Lazarus Group](https://attack.mitre.org/groups/G0032/) | Operation Dream Job | 2019 | [Informe](https://attack.mitre.org/campaigns/C0022/) |
 
 ### Kill Chain
-```mermaid
-graph LR
-    A[Recon] --> B[Initial Access]
-    B --> C[Execution]
-    C --> D[Persistence]
-    D --> E[Privilege Escalation]
-    E --> F[Defense Evasion]
-    F --> G[Credential Access]
-    G --> H[Discovery]
-    H --> I[Lateral Movement]
-    I --> J[Collection]
-    J --> K[Exfiltration]
-    K --> L[Impact]    
-    style C fill:#ff6b6b
-```
+
+![Kill Chain Diagram](../../assets/img/T1059-001-CyberKillChain.svg)
 
 ## Diagrama de Ataque
 
 ### Attack Flow Completo - Atomic Red Team Example
-```mermaid
-graph LR
-    A[pwsh.exe] --> B[powershell.exe]
-    B --> C[AutoIt3.exe]
-    C --> D[powershell.exe]
-    D --> E[calc.exe]
 
-    A -.->|Sysmon EID 1|B
-    B -.->|Sysmon EID 1|C
-    C -.->|Sysmon EID 1|D
-    D -.->|Sysmon EID 1|E
+![AttackFlow](../../assets/img/T1059-001-AttackFlow.svg)
 
-    style A fill:#C080FF,stroke:#000,color:#000
-    style B fill:#FF5733,stroke:#000,color:#000
-    style C fill:#6FA8DC,stroke:#000,color:#000
-    style D fill:#FF5733,stroke:#000,color:#000
-    style E fill:#FF8C42,stroke:#000,color:#000
-```
 
 ## Variantes de la Técnica
 
@@ -144,6 +116,3 @@ graph LR
 - [¿Qué es PowerShell? - Microsoft Learn](https://learn.microsoft.com/es-es/powershell/scripting/overview?view=powershell-7.5)
 - [Introducción a Common Language Runtime (CLR)](https://learn.microsoft.com/es-es/dotnet/standard/clr)
 
----
-
-[← Ver Técnicas Individuales](../index.md) | [← Volver al inicio](../../index.md)

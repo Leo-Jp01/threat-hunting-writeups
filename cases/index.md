@@ -1,3 +1,7 @@
+---
+layout: page
+title: Casos de Threat Hunting
+---
 # Casos de Threat Hunting - Escenarios Completos
 
 Simulaciones de ataques completos (kill chain, NIST, Pirámide del dolor) con análisis paso a paso, desde detección inicial hasta respuesta.

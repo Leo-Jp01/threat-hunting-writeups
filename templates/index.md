@@ -1,3 +1,7 @@
+---
+layout: page
+title: Plantillas de Documentación
+---
 # Descargas de plantillas
 
 Plantillas usadas en las explicaciones, siéntete libre de usarlas como gustes: 

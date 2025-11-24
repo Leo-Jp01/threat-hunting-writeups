@@ -7,37 +7,7 @@
     <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     
-    <script type="module">
-      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-      mermaid.initialize({ 
-        startOnLoad: true,
-        theme: 'dark',
-        securityLevel: 'loose'
-      });
-    </script>
-    
     <style>
-      .post-meta {
-        color: #666;
-        font-size: 0.9em;
-        margin-bottom: 1em;
-      }
-
-      .post-tags {
-        margin-bottom: 1.5em;
-      }
-
-      .post-tags .tag {
-        display: inline-block;
-        background: #0366d6;
-        color: white;
-        padding: 3px 8px;
-        border-radius: 3px;
-        font-size: 0.85em;
-        margin-right: 5px;
-        margin-bottom: 5px;
-      }
-
       table {
         border-collapse: collapse;
         width: 100%;
@@ -61,11 +31,6 @@
         background-color: #f9f9f9;
       }
 
-      .mermaid {
-        background: transparent;
-        margin: 2em 0;
-      }
-
       pre {
         background: #f6f8fa;
         border: 1px solid #ddd;
@@ -86,31 +51,15 @@
         padding: 0;
       }
 
-      /* Navegación al final */
-      .nav-footer {
-        margin-top: 3em;
-        padding-top: 1em;
-        border-top: 2px solid #e1e4e8;
-        display: flex;
-        justify-content: space-between;
-        gap: 1em;
+      h2 {
+        border-bottom: 2px solid #0366d6;
+        padding-bottom: 0.3em;
+        margin-top: 2em;
       }
 
-      .nav-footer a {
-        display: inline-block;
-        padding: 8px 16px;
-        background: #f6f8fa;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        text-decoration: none;
+      h3 {
         color: #0366d6;
-        transition: all 0.2s;
-      }
-
-      .nav-footer a:hover {
-        background: #0366d6;
-        color: white;
-        border-color: #0366d6;
+        margin-top: 1.5em;
       }
     </style>
   </head>
@@ -132,26 +81,7 @@
       </header>
       
       <section>
-        <h1>{{ page.title }}</h1>
-        <p class="post-meta">
-          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d de %B, %Y" }}</time>
-          {% if page.author %} • <span>{{ page.author }}</span>{% endif %}
-        </p>
-        
-        {% if page.tags %}
-        <p class="post-tags">
-          {% for tag in page.tags %}
-            <span class="tag">{{ tag }}</span>
-          {% endfor %}
-        </p>
-        {% endif %}
-
         {{ content }}
-
-        <div class="nav-footer">
-          <a href="{{ '/techniques/index.html' | relative_url }}">← Ver Técnicas Individuales</a>
-          <a href="{{ '/' | relative_url }}">← Volver al inicio</a>
-        </div>
       </section>
       
       <footer>
