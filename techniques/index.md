@@ -85,8 +85,7 @@ Cada técnica documentada sigue este flujo:
 - [Wazuh Detection Rules](https://documentation.wazuh.com/current/user-manual/ruleset/index.html)
 
 ---
-[← Ver Técnicas Individuales](../techniques/index.md)\
-[← Volver al inicio](../index.md)
+[← Ver Técnicas Individuales](../techniques/index.md) | [← Volver al inicio](../index.md)
 
 ---
 **Última actualización:** 2025-11-22  

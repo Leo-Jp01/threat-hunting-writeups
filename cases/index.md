@@ -54,9 +54,7 @@ Al completar estos casos, desarrollarás:
 
 
 ---
- [← Ver Técnicas Individuales](../techniques/index.md)\
- [← Ver Plantillas de Documentación](../templates/index.md)\
- [← Volver al inicio](../index.md)
+ [← Ver Técnicas Individuales](../techniques/index.md) | [← Ver Plantillas de Documentación](../templates/index.md) | [← Volver al inicio](../index.md)
 
 ---
 
