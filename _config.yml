@@ -9,3 +9,8 @@ location: Bogotá, Colombia
 github_username: Leo-Jp01
 email: leo.jaraba.dev@gmail.com
 show_downloads: false
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

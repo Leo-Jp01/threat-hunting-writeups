@@ -26,12 +26,12 @@ PowerShell es una solución de automatización de tareas multiplataformas formad
 ## Contexto de Amenaza
 
 ### ¿Por qué es relevante esta técnica?
-Los adversarios han usado PowerShell a lo largo de muchos años para realizar sus ataques debido a un factor importante y es el hecho de que ya viene por defecto en la mayoria de sistemas Windows, lo que les facilita a la hora de recolección de credenciales, escalada de privilegios, ejecución de payloads entre otras funciones mas.
+Los adversarios han usado PowerShell a lo largo de muchos años para realizar sus ataques debido a un factor importante y es el hecho de que ya viene por defecto en la mayoría de sistemas Windows, lo que les facilita a la hora de recolección de credenciales, escalada de privilegios, ejecución de payloads entre otras funciones mas.
 
 ### Grupos APT Conocidos
 
 | Grupo | Campaña | Año | Referencia |
-|-------|---------|-----|------------|
+|:------|:--------|:----|:-----------|
 | [Sandworm Team](https://attack.mitre.org/groups/G0034/) | 2022 Ukraine Electric Power Attack | 2022 | [Informe Campaña](https://attack.mitre.org/campaigns/C0034/) |
 | [APT28](https://attack.mitre.org/groups/G0007/) | Nearest Neighbor Campaign | 2022 - 2024 | [Informe Campaña](https://attack.mitre.org/campaigns/C0051/) |
 | [Lazarus Group](https://attack.mitre.org/groups/G0032/) | Operation Dream Job | 2019 | [Informe Campaña](https://attack.mitre.org/campaigns/C0022/) |
@@ -39,11 +39,7 @@ Los adversarios han usado PowerShell a lo largo de muchos años para realizar su
 ### Kill Chain
 
 ```mermaid
----
-config:
-  look: neo
-  theme: neo
----
+
 graph LR
     %% Cyber Kill Chain
     A[Recon] --> B[Initial Access]
@@ -66,11 +62,7 @@ graph LR
 ### Attack Flow Completo - Atomic Red Team Example
 
 ```mermaid
----
-config:
-  look: neo
-  theme: neo
----
+
 graph LR
     A[pwsh.exe] --> B[powershell.exe]
     B --> C[AutoIt3.exe]
@@ -165,6 +157,7 @@ graph LR
 ## Acciones Recomendadas
 
 ## Referencias
+
 - [¿Qué es PowerShell? - Learn Microsoft](https://learn.microsoft.com/es-es/powershell/scripting/overview?view=powershell-7.5)
 - [Introducción a Common Language Runtime (CLR)](https://learn.microsoft.com/es-es/dotnet/standard/clr)
 -
